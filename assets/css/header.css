@@ -1,0 +1,29 @@
+header {
+  background-color: #E54E4C;
+  height: 2.5rem;
+}
+
+#name {
+  left: 10px;
+  position: absolute;
+  font-size: larger;
+  font-weight: 900;
+  margin-top: 0.5rem;
+}
+
+ul {
+  height: 10%;
+  display: inline;
+}
+
+ul p {
+  display: inline;
+}
+
+ul span {
+  position: absolute;
+  right: 10px;
+  font-size: larger;
+  font-weight: 900;
+  margin-top: 0.5rem;
+}

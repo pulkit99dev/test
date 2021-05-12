@@ -1,0 +1,22 @@
+body{
+    background-color: darkgrey;
+    color: black;
+}
+
+#posted-content{
+    text-align: left;
+    position: absolute;
+    left : 15px;
+}
+
+.post-comments{
+    padding-left: 4rem;
+    margin-top: -2rem;
+}
+
+#friends-list{
+    width: 10%;
+    position: absolute;
+    right: 0px;
+    border-left: 1px solid black;
+}

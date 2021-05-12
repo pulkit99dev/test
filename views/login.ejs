@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>
+            <%= title %>
+        </title>
+    </head>
+    <body>
+        <form action="/user/create-session" method="post">
+            <p>Email-id &nbsp;<input type="email" name="email" id="" required></p>
+            <p>Password &nbsp;<input type="password" name="password" id="" required></p>
+            <button type="submit">Log-in</button>
+        </form>
+    </body>
+</html>
+
+<p>
+    <a href="/user/auth/google">Google Sign-in/Sign-up</a>
+</p>
